@@ -1,0 +1,139 @@
+*{
+	padding: 0px;
+	margin:0px;
+	box-sizing: border-box;
+}
+
+#sudomain{
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#localmain{
+	width: 50%;
+	background-color: white;
+}
+#main{
+    display: flex;
+    justify-content: space-around;
+	margin-top: 4vh;
+	padding: 0;
+	margin: 15px;
+	border: 1px solid black;
+}
+#left{
+    width: 35%;
+    margin-right: 20px;
+	background-color: black;
+	color: white;
+}
+#right{
+    width: 65%;
+}
+#photo{
+	margin-left: 25%;
+	margin-top: 4%;
+}
+
+#layer1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 210px;
+    width: 210px;
+    border-radius: 50%;
+	background-color: #fff;
+}
+#logo{
+    height: 195px;
+    width: 195px;
+    border-radius: 50%;
+}
+.sub_head{
+	background-color: white;
+	font-size: 18px;
+	color: black;
+	height: 25px;
+	padding: 2px 20px 0px;
+	width: 90%;
+	border-radius:0 40px 40px 0 ;
+
+}
+#selfintro{
+	margin-left: 15px;
+	line-height: 0.8;
+}
+#selfintro > pre{
+	font-family: 'Baloo Bhai 2';
+	font-size: 15px;
+	
+}
+#selfintro > pre > a{
+	text-decoration: none;
+	color: white;
+}
+
+.list{
+	margin-left: 20px;
+}
+.list > li{
+	list-style: none;
+	line-height: 1.5;
+}
+.list > li::before{
+	content: "\00BB";
+	
+}
+#education > p{
+    font-family: 'Baloo Bhai 2';
+}
+
+#right > div{
+	margin: 12px 0;
+}
+#name1{
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	height: 195px;
+	font-size: 35px;
+	font-family: 'Source Code Pro', monospace;
+	font-weight: 700;
+	line-height: 0.4;
+}
+#ls{
+	color: #ecbb3f;
+}
+#lower{
+	font-size: 13px;
+}
+#game{
+	text-decoration: none;
+	color: rgb(220, 77, 77);
+}
+
+#language > ul>pre>li{
+	font-size: 15px;
+	font-family: 'Baloo Bhai 2';
+}
+
+.data{
+	width: 90%;
+	margin-left: 6%;
+}
+.topic{
+	background-color: #ecbb3f;
+	font-size: 18px;
+	color:black;
+	height: 27px;
+	width: 30%;
+	padding: 4px 10px 0px;
+	border-radius: 0 40px 40px 0;
+}
+.date{
+	font-size: 17px;
+}
+.space{
+	height: 14px;
+}
